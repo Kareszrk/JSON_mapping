@@ -10,7 +10,5 @@ let JSONdata = {
 }
 
 for (const key in JSONdata) {
-  if (Object.prototype.hasOwnProperty.call(JSONdata, key)) {
-    console.log(key); // <- Logging : John : Steve
-  }
+    console.log(JSONdata[key].age); // <- Logging : 51 : 32
 }
